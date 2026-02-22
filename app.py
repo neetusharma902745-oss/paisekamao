@@ -317,8 +317,6 @@ def ads_txt():
 
 @app.route('/205f96ddcb0db02da8bf.txt')
 def hilltopads_verify():
-    return "205f96ddcb0db02da8bf", 200, {'Content-Type': 'text/plain'}
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    return "205f96ddcb0db02da8bf", 200, {'Content-Type': 'text/plain'}if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 10000))
     app.run(host='0.0.0.0', port=port, debug=False)
