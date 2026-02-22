@@ -123,6 +123,10 @@ def sitemap():
 def ads_txt():
     return "google.com, pub-1709475506645918, DIRECT, f08c47fec0942fa0", 200, {'Content-Type': 'text/plain'}
 
+@app.route('/205f96ddcb0db02da8bf.txt')
+def hilltopads_verify():
+    return "205f96ddcb0db02da8bf", 200, {'Content-Type': 'text/plain'}
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
