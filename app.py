@@ -12,19 +12,11 @@ HTML = '''<!DOCTYPE html>
 <meta name="description" content="घर बैठे ऑनलाइन पैसे कमाने के 15 प्रमाणित तरीके। Freelancing, YouTube, Blogging, Affiliate Marketing और बहुत कुछ।">
 <meta name="keywords" content="online paise kaise kamaye, ghar baithe paise, freelancing hindi, youtube se paise, blogging se kamai">
 <meta name="google-site-verification" content="TPjYlLn0L0W216UNfKt9sg2n9McE-NvepGERkWEtZVU" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --gold: #f5c518;
-    --gold2: #e8a900;
-    --dark: #0a0a12;
-    --card: #12121f;
-    --accent: #00e5ff;
-    --green: #00ff88;
-    --text: #e8e8f0;
-    --muted: #7a7a9a;
-  }
+  :root { --gold: #f5c518; --gold2: #e8a900; --dark: #0a0a12; --card: #12121f; --accent: #00e5ff; --green: #00ff88; --text: #e8e8f0; --muted: #7a7a9a; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: var(--dark); color: var(--text); font-family: 'Hind', sans-serif; overflow-x: hidden; }
   .hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; padding: 2rem; background: radial-gradient(ellipse at 50% 0%, rgba(245,197,24,0.15) 0%, transparent 70%), radial-gradient(ellipse at 80% 100%, rgba(0,229,255,0.1) 0%, transparent 60%); }
@@ -74,18 +66,7 @@ HTML = '''<!DOCTYPE html>
 <body>
 <div class="ticker-wrap">
   <div class="ticker">
-    <span>💰 Freelancing से ₹50,000/माह</span>
-    <span>📹 YouTube से लाखों कमाएं</span>
-    <span>✍️ Blogging से Passive Income</span>
-    <span>🛒 Affiliate Marketing</span>
-    <span>📱 App बनाकर पैसे</span>
-    <span>🎓 Online Teaching</span>
-    <span>💰 Freelancing से ₹50,000/माह</span>
-    <span>📹 YouTube से लाखों कमाएं</span>
-    <span>✍️ Blogging से Passive Income</span>
-    <span>🛒 Affiliate Marketing</span>
-    <span>📱 App बनाकर पैसे</span>
-    <span>🎓 Online Teaching</span>
+    <span>💰 Freelancing से ₹50,000/माह</span><span>📹 YouTube से लाखों कमाएं</span><span>✍️ Blogging से Passive Income</span><span>🛒 Affiliate Marketing</span><span>📱 App बनाकर पैसे</span><span>🎓 Online Teaching</span><span>💰 Freelancing से ₹50,000/माह</span><span>📹 YouTube से लाखों कमाएं</span><span>✍️ Blogging से Passive Income</span><span>🛒 Affiliate Marketing</span><span>📱 App बनाकर पैसे</span><span>🎓 Online Teaching</span>
   </div>
 </div>
 <section class="hero">
