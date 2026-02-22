@@ -145,3 +145,28 @@ def sitemap():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
+@app.route('/ads.txt')
+def ads_txt():
+    return "google.com, pub-1709475506645918, DIRECT, f08c47fec0942fa0", 200, {'Content-Type': 'text/plain'}
+```
+
+---
+
+## Steps:
+
+**Step 1:** Apna `app.py` open karo
+
+**Step 2:** Upar wala code paste karo kisi bhi route ke neeche
+
+**Step 3:** GitHub pe push karo:
+```
+git add .
+git commit -m "Add ads.txt"
+git push
+```
+
+**Step 4:** Render automatically redeploy karega
+
+**Step 5:** Browser mein check karo:
+```
+paisekamao.onrender.com/ads.txt
