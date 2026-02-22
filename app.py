@@ -11,6 +11,7 @@ HTML = '''<!DOCTYPE html>
 <title>💰 PaiseKamao.in – ऑनलाइन पैसे कमाने के 15 बेस्ट तरीके</title>
 <meta name="description" content="घर बैठे ऑनलाइन पैसे कमाने के 15 प्रमाणित तरीके। Freelancing, YouTube, Blogging, Affiliate Marketing और बहुत कुछ।">
 <meta name="keywords" content="online paise kaise kamaye, ghar baithe paise, freelancing hindi, youtube se paise, blogging se kamai">
+<meta name="google-site-verification" content="TPjYlLn0L0W216UNfKt9sg2n9McE-NvepGERkWEtZVU" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
