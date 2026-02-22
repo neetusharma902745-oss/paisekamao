@@ -148,3 +148,31 @@ if __name__ == '__main__':
 @app.route('/ads.txt')
 def ads_txt():
     return "google.com, pub-1709475506645918, DIRECT, f08c47fec0942fa0", 200, {'Content-Type': 'text/plain'}
+from flask import Flask, render_template_string
+import os
+
+app = Flask(__name__)
+
+HTML = '''<!DOCTYPE html>
+<html lang="hi">
+... (baaki sab same rakho)
+'''
+
+@app.route('/')
+def home():
+    return render_template_string(HTML)
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return '''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://paisekamao.onrender.com/</loc><priority>1.0</priority></url>
+</urlset>''', 200, {'Content-Type': 'application/xml'}
+
+@app.route('/ads.txt')
+def ads_txt():
+    return "google.com, pub-1709475506645918, DIRECT, f08c47fec0942fa0", 200, {'Content-Type': 'text/plain'}
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
