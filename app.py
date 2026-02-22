@@ -4,12 +4,13 @@ import os
 app = Flask(__name__)
 
 HTML = '''<!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>💰 PaiseKamao.in – ऑनलाइन पैसे कमाने के 15 बेस्ट तरीके</title>
-<meta name="description" content="घर बैठे ऑनलाइन पैसे कमाने के 15 प्रमाणित तरीके।">
+<title>💰 EarnOnline.in – 15 Best Ways to Earn Money Online in India</title>
+<meta name="description" content="Earn money online from home in India. 15 proven ways including Freelancing, YouTube, Blogging, Affiliate Marketing and more.">
+<meta name="keywords" content="earn money online india, work from home, freelancing india, youtube earn money, blogging income 2025">
 <meta name="google-site-verification" content="TPjYlLn0L0W216UNfKt9sg2n9McE-NvepGERkWEtZVU" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -60,85 +61,86 @@ HTML = '''<!DOCTYPE html>
 <body>
 <div class="ticker-wrap">
   <div class="ticker">
-    <span>💰 Freelancing से ₹50,000/माह</span><span>📹 YouTube से लाखों कमाएं</span><span>✍️ Blogging से Passive Income</span><span>🛒 Affiliate Marketing</span><span>📱 App बनाकर पैसे</span><span>🎓 Online Teaching</span><span>💰 Freelancing से ₹50,000/माह</span><span>📹 YouTube से लाखों कमाएं</span><span>✍️ Blogging से Passive Income</span><span>🛒 Affiliate Marketing</span><span>📱 App बनाकर पैसे</span><span>🎓 Online Teaching</span>
+    <span>💰 Earn ₹50,000/month with Freelancing</span><span>📹 Make Lakhs on YouTube</span><span>✍️ Passive Income from Blogging</span><span>🛒 Affiliate Marketing</span><span>📱 Earn by Building Apps</span><span>🎓 Online Teaching</span><span>💰 Earn ₹50,000/month with Freelancing</span><span>📹 Make Lakhs on YouTube</span><span>✍️ Passive Income from Blogging</span><span>🛒 Affiliate Marketing</span><span>📱 Earn by Building Apps</span><span>🎓 Online Teaching</span>
   </div>
 </div>
 <section class="hero">
-  <div class="badge">🇮🇳 100% भारतीयों के लिए</div>
-  <h1>ऑनलाइन <span>पैसे कमाओ</span><br>घर बैठे!</h1>
-  <p>2025 के सबसे बेस्ट और प्रमाणित 15 तरीके जिनसे आप महीने में ₹10,000 से ₹1,00,000+ कमा सकते हैं।</p>
+  <div class="badge">🇮🇳 Made for Indians</div>
+  <h1>Earn Money <span>Online</span><br>From Home!</h1>
+  <p>15 proven ways to earn ₹10,000 to ₹1,00,000+ per month in 2025 — many with zero investment required.</p>
   <div class="stats-row">
-    <div class="stat"><div class="num">50K+</div><div class="label">लोग कमा रहे हैं</div></div>
-    <div class="stat"><div class="num">15</div><div class="label">तरीके</div></div>
-    <div class="stat"><div class="num">₹0</div><div class="label">Investment नहीं</div></div>
+    <div class="stat"><div class="num">50K+</div><div class="label">People Earning</div></div>
+    <div class="stat"><div class="num">15</div><div class="label">Methods</div></div>
+    <div class="stat"><div class="num">₹0</div><div class="label">Investment Needed</div></div>
     <div class="stat"><div class="num">24/7</div><div class="label">Passive Income</div></div>
   </div>
 </section>
 <section class="section">
-  <div class="section-title">15 तरीके <span>पैसे कमाने के</span></div>
-  <p class="section-sub">हर तरीके में कमाई की जानकारी और शुरुआत कैसे करें</p>
+  <div class="section-title">15 Ways to <span>Earn Online</span></div>
+  <p class="section-sub">Earnings info and how to get started for each method</p>
   <div class="grid">
-    <div class="card"><span class="card-num">01</span><span class="card-icon">💻</span><h3>Freelancing</h3><p>Upwork, Fiverr पर अपनी skills बेचें।</p><span class="earn-tag">₹20K–₹1L/माह</span><span class="diff-tag">आसान</span></div>
-    <div class="card"><span class="card-num">02</span><span class="card-icon">📹</span><h3>YouTube Channel</h3><p>Videos बनाओ। AdSense + Sponsorship से income।</p><span class="earn-tag">₹10K–₹5L/माह</span><span class="diff-tag">धैर्य चाहिए</span></div>
-    <div class="card"><span class="card-num">03</span><span class="card-icon">✍️</span><h3>Blogging</h3><p>Blog बनाओ। AdSense + Affiliate से Passive Income।</p><span class="earn-tag">₹5K–₹2L/माह</span><span class="diff-tag">6-12 महीने</span></div>
-    <div class="card"><span class="card-num">04</span><span class="card-icon">🛒</span><h3>Affiliate Marketing</h3><p>Amazon, Flipkart का product promote करो।</p><span class="earn-tag">₹5K–₹3L/माह</span><span class="diff-tag">Medium</span></div>
-    <div class="card"><span class="card-num">05</span><span class="card-icon">🎓</span><h3>Online Teaching</h3><p>Udemy पर course बनाओ। एक बार बनाओ, बार-बार बिको।</p><span class="earn-tag">₹15K–₹2L/माह</span><span class="diff-tag">आसान</span></div>
-    <div class="card"><span class="card-num">06</span><span class="card-icon">📱</span><h3>Social Media Management</h3><p>Businesses के Instagram/Facebook manage करो।</p><span class="earn-tag">₹20K–₹80K/माह</span><span class="diff-tag">आसान</span></div>
-    <div class="card"><span class="card-num">07</span><span class="card-icon">📸</span><h3>Stock Photography</h3><p>Shutterstock पर photos बेचो — passive income।</p><span class="earn-tag">₹2K–₹30K/माह</span><span class="diff-tag">शुरुआती</span></div>
-    <div class="card"><span class="card-num">08</span><span class="card-icon">🎨</span><h3>Graphic Design</h3><p>Logos, banners बनाकर Fiverr पर बेचो।</p><span class="earn-tag">₹15K–₹1L/माह</span><span class="diff-tag">Medium</span></div>
-    <div class="card"><span class="card-num">09</span><span class="card-icon">🖥️</span><h3>Web Development</h3><p>Websites बनाओ। India में demand बहुत ज्यादा है।</p><span class="earn-tag">₹30K–₹2L/माह</span><span class="diff-tag">Hard लेकिन Worth It</span></div>
-    <div class="card"><span class="card-num">10</span><span class="card-icon">🤖</span><h3>AI Tools का उपयोग</h3><p>ChatGPT सीखो और content creation की service दो।</p><span class="earn-tag">₹20K–₹1.5L/माह</span><span class="diff-tag">नया Trend</span></div>
-    <div class="card"><span class="card-num">11</span><span class="card-icon">📦</span><h3>Dropshipping</h3><p>बिना stock रखे online store चलाओ।</p><span class="earn-tag">₹10K–₹3L/माह</span><span class="diff-tag">Medium Risk</span></div>
-    <div class="card"><span class="card-num">12</span><span class="card-icon">🎙️</span><h3>Podcast</h3><p>Spotify पर podcast शुरू करो। Sponsorship से income।</p><span class="earn-tag">₹5K–₹1L/माह</span><span class="diff-tag">Long Term</span></div>
-    <div class="card"><span class="card-num">13</span><span class="card-icon">💹</span><h3>Share Market</h3><p>Zerodha, Groww पर invest करो।</p><span class="earn-tag">Variable Returns</span><span class="diff-tag">Risk है</span></div>
-    <div class="card"><span class="card-num">14</span><span class="card-icon">📝</span><h3>Content Writing</h3><p>Hindi/English content writers की खूब demand है।</p><span class="earn-tag">₹10K–₹60K/माह</span><span class="diff-tag">आसान</span></div>
-    <div class="card"><span class="card-num">15</span><span class="card-icon">🌐</span><h3>Domain Flipping</h3><p>सस्ते domains खरीदो और महंगे में बेचो।</p><span class="earn-tag">₹5K–₹10L/sale</span><span class="diff-tag">Smart Investment</span></div>
+    <div class="card"><span class="card-num">01</span><span class="card-icon">💻</span><h3>Freelancing</h3><p>Sell your skills on Upwork, Fiverr, Freelancer. Web design, writing, video editing, coding — any skill works.</p><span class="earn-tag">₹20K–₹1L/month</span><span class="diff-tag">Easy Start</span></div>
+    <div class="card"><span class="card-num">02</span><span class="card-icon">📹</span><h3>YouTube Channel</h3><p>Create videos on any topic — cooking, education, tech reviews, comedy. Earn via AdSense and sponsorships.</p><span class="earn-tag">₹10K–₹5L/month</span><span class="diff-tag">Needs Patience</span></div>
+    <div class="card"><span class="card-num">03</span><span class="card-icon">✍️</span><h3>Blogging</h3><p>Start a blog, drive traffic via SEO, and earn passive income through Google AdSense and Affiliate Marketing.</p><span class="earn-tag">₹5K–₹2L/month</span><span class="diff-tag">6-12 Months</span></div>
+    <div class="card"><span class="card-num">04</span><span class="card-icon">🛒</span><h3>Affiliate Marketing</h3><p>Promote Amazon, Flipkart or any brand's products and earn a commission on every sale.</p><span class="earn-tag">₹5K–₹3L/month</span><span class="diff-tag">Medium</span></div>
+    <div class="card"><span class="card-num">05</span><span class="card-icon">🎓</span><h3>Online Teaching</h3><p>Teach on Udemy or create your own course. Create once, sell forever — true passive income.</p><span class="earn-tag">₹15K–₹2L/month</span><span class="diff-tag">Easy</span></div>
+    <div class="card"><span class="card-num">06</span><span class="card-icon">📱</span><h3>Social Media Management</h3><p>Manage Instagram and Facebook pages for local businesses. Charge ₹5,000–₹20,000 per client per month.</p><span class="earn-tag">₹20K–₹80K/month</span><span class="diff-tag">Easy</span></div>
+    <div class="card"><span class="card-num">07</span><span class="card-icon">📸</span><h3>Stock Photography</h3><p>Sell your photos on Shutterstock and Getty Images. One photo sells again and again — pure passive income.</p><span class="earn-tag">₹2K–₹30K/month</span><span class="diff-tag">Beginner</span></div>
+    <div class="card"><span class="card-num">08</span><span class="card-icon">🎨</span><h3>Graphic Design</h3><p>Learn Canva or Photoshop and sell logos, banners, and social media posts on Fiverr.</p><span class="earn-tag">₹15K–₹1L/month</span><span class="diff-tag">Medium</span></div>
+    <div class="card"><span class="card-num">09</span><span class="card-icon">🖥️</span><h3>Web Development</h3><p>Learn HTML, CSS, Python or React and build websites for small businesses. Huge demand in India.</p><span class="earn-tag">₹30K–₹2L/month</span><span class="diff-tag">Hard but Worth It</span></div>
+    <div class="card"><span class="card-num">10</span><span class="card-icon">🤖</span><h3>AI Tools</h3><p>Master ChatGPT, Midjourney and offer content creation and image generation services.</p><span class="earn-tag">₹20K–₹1.5L/month</span><span class="diff-tag">New Trend</span></div>
+    <div class="card"><span class="card-num">11</span><span class="card-icon">📦</span><h3>Dropshipping</h3><p>Run an online store without holding stock. Customer orders, supplier ships — you keep the profit.</p><span class="earn-tag">₹10K–₹3L/month</span><span class="diff-tag">Medium Risk</span></div>
+    <div class="card"><span class="card-num">12</span><span class="card-icon">🎙️</span><h3>Podcast</h3><p>Start a podcast on Spotify or Anchor. Earn through sponsorships, courses and affiliate marketing.</p><span class="earn-tag">₹5K–₹1L/month</span><span class="diff-tag">Long Term</span></div>
+    <div class="card"><span class="card-num">13</span><span class="card-icon">💹</span><h3>Stock Market</h3><p>Invest on Zerodha or Groww. Build long-term wealth through dividends and smart investing.</p><span class="earn-tag">Variable Returns</span><span class="diff-tag">Has Risk</span></div>
+    <div class="card"><span class="card-num">14</span><span class="card-icon">📝</span><h3>Content Writing</h3><p>Write blogs, articles and copy. High demand for English and Hindi writers on Internshala and LinkedIn.</p><span class="earn-tag">₹10K–₹60K/month</span><span class="diff-tag">Easy Start</span></div>
+    <div class="card"><span class="card-num">15</span><span class="card-icon">🌐</span><h3>Domain Flipping</h3><p>Buy domains cheap (₹500-₹1000) and sell them for profit. Good domains sell for lakhs on GoDaddy Auctions.</p><span class="earn-tag">₹5K–₹10L/sale</span><span class="diff-tag">Smart Investment</span></div>
   </div>
 
   <div class="steps">
-    <h2>🚀 शुरुआत कैसे करें?</h2>
+    <h2>🚀 How to Get Started?</h2>
     <div class="step-list">
-      <div class="step"><div class="step-num">1</div><div class="step-content"><h4>अपनी Skill पहचानो</h4><p>Writing, Design, Teaching, Coding — कोई भी skill काम आती है।</p></div></div>
-      <div class="step"><div class="step-num">2</div><div class="step-content"><h4>एक Platform चुनो</h4><p>YouTube, Fiverr, या Blog — एक-एक करके बढ़ाओ।</p></div></div>
-      <div class="step"><div class="step-num">3</div><div class="step-content"><h4>Free Courses लो</h4><p>YouTube पर free में सीखो। 90 दिन Consistency रखो।</p></div></div>
-      <div class="step"><div class="step-num">4</div><div class="step-content"><h4>पहले ₹1 कमाओ</h4><p>पहला पैसा आया — confidence आएगा।</p></div></div>
-      <div class="step"><div class="step-num">5</div><div class="step-content"><h4>Scale करो</h4><p>Multiple income streams बनाओ।</p></div></div>
+      <div class="step"><div class="step-num">1</div><div class="step-content"><h4>Identify Your Skill</h4><p>What are you good at? Writing, Design, Teaching, Coding — any skill can make money online.</p></div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><h4>Choose One Platform</h4><p>Start with just one platform — YouTube, Fiverr, or your own Blog. Expand one at a time.</p></div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><h4>Take Free Courses</h4><p>Learn for free on YouTube. Use ChatGPT for help. Stay consistent for at least 90 days.</p></div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><h4>Earn Your First ₹1</h4><p>Don't target ₹1 lakh first — just earn your first rupee. Once that happens, confidence follows.</p></div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content"><h4>Scale Up</h4><p>Double down on what works. Build a team, automate, and create multiple income streams.</p></div></div>
     </div>
   </div>
 
   <div style="margin-top:4rem;">
-    <div class="section-title">📚 हमारे <span>लेटेस्ट Articles</span></div>
-    <p class="section-sub">विस्तार से जानें हर तरीके के बारे में</p>
+    <div class="section-title">📚 Latest <span>Articles</span></div>
+    <p class="section-sub">In-depth guides on every method</p>
     <div class="articles-grid">
-      <a href="/fiverr-se-paise-kaise-kamaye" class="article-card">
-        <h3>💻 Fiverr से पैसे कैसे कमाएं?</h3>
-        <p>Fiverr पर account बनाने से लेकर पहला order पाने तक — पूरी guide हिंदी में।</p>
+      <a href="/how-to-earn-on-fiverr" class="article-card">
+        <h3>💻 How to Earn Money on Fiverr?</h3>
+        <p>Complete guide from creating your Fiverr account to landing your first order.</p>
       </a>
-      <a href="/youtube-channel-kaise-banaye" class="article-card">
-        <h3>📹 YouTube Channel कैसे बनाएं?</h3>
-        <p>YouTube channel शुरू करने का सही तरीका और monetization कैसे करें।</p>
+      <a href="/how-to-start-youtube-channel" class="article-card">
+        <h3>📹 How to Start a YouTube Channel?</h3>
+        <p>Step-by-step guide to starting a YouTube channel and getting monetized in 2025.</p>
       </a>
-      <a href="/blogging-se-paise-kaise-kamaye" class="article-card">
-        <h3>✍️ Blogging से पैसे कैसे कमाएं?</h3>
-        <p>Blog बनाओ, traffic लाओ और AdSense से passive income कमाओ।</p>
+      <a href="/how-to-earn-from-blogging" class="article-card">
+        <h3>✍️ How to Earn Money from Blogging?</h3>
+        <p>Start a blog, rank on Google, and earn passive income through AdSense.</p>
       </a>
     </div>
   </div>
 </section>
 <footer>
   <p style="font-family:'Baloo 2',cursive; font-size:1.5rem; font-weight:800; color:var(--gold);">💰 PaiseKamao.in</p>
-  <p>© 2025 PaiseKamao.in</p>
+  <p>India's most trusted platform for earning money online</p>
+  <p style="margin-top:0.5rem;">© 2025 PaiseKamao.in</p>
 </footer>
 </body>
 </html>'''
 
 FIVERR_HTML = '''<!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fiverr से पैसे कैसे कमाएं? – PaiseKamao.in</title>
-<meta name="description" content="Fiverr पर account बनाने से लेकर पहला order पाने तक पूरी guide हिंदी में। Fiverr se paise kaise kamaye 2025.">
+<title>How to Earn Money on Fiverr? – PaiseKamao.in</title>
+<meta name="description" content="Complete guide to earning money on Fiverr in 2025. Create your gig, get orders and withdraw to Indian bank account.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -159,47 +161,37 @@ FIVERR_HTML = '''<!DOCTYPE html>
 </head>
 <body>
 <div class="container">
-  <a href="/" class="back">← वापस जाएं</a>
-  <h1>💻 <span>Fiverr</span> से पैसे कैसे कमाएं?</h1>
-  <p>2025 में Fiverr दुनिया का सबसे बड़ा freelancing platform है जहाँ आप अपनी किसी भी skill को बेचकर घर बैठे ₹20,000 से ₹1,00,000+ महीना कमा सकते हैं।</p>
-
-  <div class="highlight">
-    💡 <strong>Fiverr पर कमाई:</strong> ₹20,000 – ₹1,00,000+ प्रति माह | शुरुआत: बिल्कुल मुफ्त
-  </div>
-
-  <h2>Fiverr क्या है?</h2>
-  <p>Fiverr एक online marketplace है जहाँ freelancers अपनी services (जिन्हें "Gigs" कहते हैं) बेचते हैं। Graphic design, writing, video editing, coding, voice over — हर तरह की service यहाँ बिकती है।</p>
-
-  <h2>Fiverr पर Account कैसे बनाएं?</h2>
-  <div class="step-box"><h3>Step 1: Registration</h3><p>Fiverr.com पर जाएं → "Become a Seller" click करें → Email से sign up करें।</p></div>
-  <div class="step-box"><h3>Step 2: Profile Complete करें</h3><p>अपनी photo, bio, और skills add करें। Professional photo लगाएं — इससे orders मिलने की chances बढ़ती हैं।</p></div>
-  <div class="step-box"><h3>Step 3: पहला Gig बनाएं</h3><p>वो service offer करें जो आपको आती है। Title clear रखें जैसे "I will design a professional logo for your business"।</p></div>
-  <div class="step-box"><h3>Step 4: Pricing Set करें</h3><p>शुरुआत में ₹500-₹1000 ($10-$15) से शुरू करें। Reviews आने के बाद price बढ़ाएं।</p></div>
-
-  <h2>किन Skills पर ज़्यादा Orders मिलते हैं?</h2>
-  <p>Logo Design, Video Editing, Content Writing, Social Media Posts, WordPress Website, Voice Over, Data Entry, Translation — ये सब बहुत popular हैं।</p>
-
-  <h2>Fiverr से पैसे कब मिलते हैं?</h2>
-  <p>Order complete होने के 14 दिन बाद पैसे आपके Fiverr account में आते हैं। फिर PayPal, Bank Transfer, या Payoneer से withdraw कर सकते हैं।</p>
-
-  <div class="highlight">
-    🚀 <strong>Pro Tip:</strong> पहले 10 orders में बहुत अच्छी service दो और 5-star reviews लो। इसके बाद orders automatically आने लगते हैं!
-  </div>
+  <a href="/" class="back">← Back to Home</a>
+  <h1>💻 How to Earn Money on <span>Fiverr</span>?</h1>
+  <p>Fiverr is the world's largest freelancing platform in 2025. You can sell any skill and earn ₹20,000 to ₹1,00,000+ per month — all from home.</p>
+  <div class="highlight">💡 <strong>Earnings on Fiverr:</strong> ₹20,000 – ₹1,00,000+ per month | Getting started: Completely free</div>
+  <h2>What is Fiverr?</h2>
+  <p>Fiverr is an online marketplace where freelancers sell their services (called "Gigs"). Graphic design, writing, video editing, coding, voice over — every type of service sells here.</p>
+  <h2>How to Create a Fiverr Account?</h2>
+  <div class="step-box"><h3>Step 1: Register</h3><p>Go to Fiverr.com → Click "Become a Seller" → Sign up with your email.</p></div>
+  <div class="step-box"><h3>Step 2: Complete Your Profile</h3><p>Add your photo, bio, and skills. Use a professional photo — it greatly increases your chances of getting orders.</p></div>
+  <div class="step-box"><h3>Step 3: Create Your First Gig</h3><p>Offer a service you are good at. Keep the title clear, e.g. "I will design a professional logo for your business."</p></div>
+  <div class="step-box"><h3>Step 4: Set Your Pricing</h3><p>Start at ₹500–₹1000 ($10–$15). Raise your prices once you get reviews and ratings.</p></div>
+  <h2>Which Skills Get the Most Orders?</h2>
+  <p>Logo Design, Video Editing, Content Writing, Social Media Posts, WordPress Websites, Voice Over, Data Entry, Translation — these are all very popular.</p>
+  <h2>When Do You Get Paid on Fiverr?</h2>
+  <p>Funds are released to your Fiverr account 14 days after an order is completed. You can then withdraw via PayPal, Bank Transfer, or Payoneer.</p>
+  <div class="highlight">🚀 <strong>Pro Tip:</strong> Focus on delivering excellent service for your first 10 orders and earn 5-star reviews. After that, orders will start coming automatically!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">💰 PaiseKamao.in</p>
-  <p><a href="/" style="color:var(--gold);">← Home पर वापस जाएं</a></p>
+  <p><a href="/" style="color:var(--gold);">← Back to Home</a></p>
 </footer>
 </body>
 </html>'''
 
 YOUTUBE_HTML = '''<!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YouTube Channel कैसे बनाएं? – PaiseKamao.in</title>
-<meta name="description" content="YouTube channel शुरू करने का सही तरीका 2025 में। YouTube se paise kaise kamaye, monetization kaise kare।">
+<title>How to Start a YouTube Channel? – PaiseKamao.in</title>
+<meta name="description" content="Complete guide to starting a YouTube channel in India 2025. Learn how to get monetized and earn money from YouTube.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -220,45 +212,36 @@ YOUTUBE_HTML = '''<!DOCTYPE html>
 </head>
 <body>
 <div class="container">
-  <a href="/" class="back">← वापस जाएं</a>
-  <h1>📹 <span>YouTube Channel</span> कैसे बनाएं?</h1>
-  <p>YouTube आज India में सबसे popular platform है। सही niche और consistency के साथ आप लाखों रुपये कमा सकते हैं — बिना किसी investment के!</p>
-
-  <div class="highlight">
-    💡 <strong>YouTube पर कमाई:</strong> ₹10,000 – ₹5,00,000+ प्रति माह | Investment: ₹0 (smartphone से शुरू करें)
-  </div>
-
-  <h2>YouTube Channel कैसे बनाएं?</h2>
-  <div class="step-box"><h3>Step 1: Gmail से Channel बनाएं</h3><p>YouTube.com → Sign In → अपने नाम पर click करें → "Create a channel" select करें।</p></div>
-  <div class="step-box"><h3>Step 2: Niche चुनें</h3><p>वो topic चुनें जो आपको पसंद हो और जिसमें आप expert हों। Education, Cooking, Tech, Finance, Comedy — जो भी आपका passion हो।</p></div>
-  <div class="step-box"><h3>Step 3: पहली Video बनाएं</h3><p>Smartphone से शुरू करें। अच्छी lighting रखें। Clear आवाज़ में बोलें। 8-15 minute की video अच्छी होती है।</p></div>
-  <div class="step-box"><h3>Step 4: Thumbnail और Title</h3><p>Catchy thumbnail बनाएं। Title में keywords डालें जो लोग search करते हों।</p></div>
-  <div class="step-box"><h3>Step 5: Monetization</h3><p>1000 Subscribers + 4000 Watch Hours पूरे होने पर YouTube Partner Program में apply करें।</p></div>
-
-  <h2>YouTube से कैसे कमाई होती है?</h2>
-  <p>AdSense (Ads से), Channel Membership, Super Thanks, Sponsorship, Affiliate Marketing — ये सब income sources हैं।</p>
-
-  <h2>कितने Subscribers पर कितनी कमाई?</h2>
-  <p>10K subscribers: ₹3,000–₹10,000/माह | 1 Lakh subscribers: ₹30,000–₹1,00,000/माह | 10 Lakh subscribers: ₹3,00,000–₹10,00,000/माह</p>
-
-  <div class="highlight">
-    🚀 <strong>Pro Tip:</strong> हफ्ते में कम से कम 2 videos upload करो। पहले 6 महीने results नहीं दिखेंगे — लेकिन 1 साल बाद channel boom करेगा!
-  </div>
+  <a href="/" class="back">← Back to Home</a>
+  <h1>📹 How to Start a <span>YouTube Channel</span>?</h1>
+  <p>YouTube is India's most popular platform today. With the right niche and consistency, you can earn lakhs of rupees — with zero investment!</p>
+  <div class="highlight">💡 <strong>YouTube Earnings:</strong> ₹10,000 – ₹5,00,000+ per month | Investment: ₹0 (start with your smartphone)</div>
+  <h2>How to Create a YouTube Channel?</h2>
+  <div class="step-box"><h3>Step 1: Create Channel with Gmail</h3><p>Go to YouTube.com → Sign In → Click your name → Select "Create a channel."</p></div>
+  <div class="step-box"><h3>Step 2: Choose Your Niche</h3><p>Pick a topic you enjoy and know well. Education, Cooking, Tech, Finance, Comedy — whatever your passion is.</p></div>
+  <div class="step-box"><h3>Step 3: Make Your First Video</h3><p>Start with your smartphone. Use good lighting. Speak clearly. Videos of 8–15 minutes tend to perform best.</p></div>
+  <div class="step-box"><h3>Step 4: Thumbnails and Titles</h3><p>Create eye-catching thumbnails. Put keywords in your title that people actually search for.</p></div>
+  <div class="step-box"><h3>Step 5: Monetization</h3><p>Once you reach 1,000 Subscribers and 4,000 Watch Hours, apply to the YouTube Partner Program.</p></div>
+  <h2>How Does YouTube Pay You?</h2>
+  <p>AdSense (ads), Channel Memberships, Super Thanks, Sponsorships, Affiliate Marketing — these are all income sources.</p>
+  <h2>How Much Can You Earn?</h2>
+  <p>10K subscribers: ₹3,000–₹10,000/month | 1 Lakh subscribers: ₹30,000–₹1,00,000/month | 10 Lakh subscribers: ₹3,00,000–₹10,00,000/month</p>
+  <div class="highlight">🚀 <strong>Pro Tip:</strong> Upload at least 2 videos per week. The first 6 months may feel slow — but after 1 year, your channel can explode!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">💰 PaiseKamao.in</p>
-  <p><a href="/" style="color:var(--gold);">← Home पर वापस जाएं</a></p>
+  <p><a href="/" style="color:var(--gold);">← Back to Home</a></p>
 </footer>
 </body>
 </html>'''
 
 BLOGGING_HTML = '''<!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blogging से पैसे कैसे कमाएं? – PaiseKamao.in</title>
-<meta name="description" content="Blog बनाओ, Google पर rank करो और AdSense से passive income कमाओ। Blogging se paise kaise kamaye 2025।">
+<title>How to Earn Money from Blogging? – PaiseKamao.in</title>
+<meta name="description" content="Start a blog, rank on Google and earn passive income through AdSense and affiliate marketing in India 2025.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -279,34 +262,25 @@ BLOGGING_HTML = '''<!DOCTYPE html>
 </head>
 <body>
 <div class="container">
-  <a href="/" class="back">← वापस जाएं</a>
-  <h1>✍️ <span>Blogging</span> से पैसे कैसे कमाएं?</h1>
-  <p>Blogging एक ऐसा तरीका है जहाँ आप एक बार article लिखते हो और वो सालों तक Google पर traffic लाता रहता है — यानी सोते वक्त भी पैसे आते रहते हैं!</p>
-
-  <div class="highlight">
-    💡 <strong>Blogging से कमाई:</strong> ₹5,000 – ₹2,00,000+ प्रति माह | समय: 6-12 महीने
-  </div>
-
-  <h2>Blog कैसे शुरू करें?</h2>
-  <div class="step-box"><h3>Step 1: Niche चुनें</h3><p>एक specific topic चुनें — Health, Finance, Technology, Travel, Food। जितना specific, उतना अच्छा।</p></div>
-  <div class="step-box"><h3>Step 2: Platform चुनें</h3><p>WordPress.org (best), Blogger (free), या Medium पर blog बनाएं। WordPress recommend है।</p></div>
-  <div class="step-box"><h3>Step 3: Domain और Hosting</h3><p>Domain: ₹500-₹1000/साल | Hosting: ₹1500-₹3000/साल। Hostinger या Bluehost अच्छे options हैं।</p></div>
-  <div class="step-box"><h3>Step 4: Content लिखें</h3><p>हफ्ते में 2-3 articles लिखें। हर article 1000-2000 words का हो। SEO keywords use करें।</p></div>
-  <div class="step-box"><h3>Step 5: AdSense Apply करें</h3><p>20-30 articles होने पर Google AdSense के लिए apply करें। Approval मिलते ही ads दिखने लगेंगे।</p></div>
-
-  <h2>Blog से पैसे कमाने के तरीके</h2>
-  <p>Google AdSense, Affiliate Marketing (Amazon, Flipkart), Sponsored Posts, Digital Products बेचना, Online Courses — ये सब income sources हैं।</p>
-
-  <h2>कितने Traffic पर कितनी कमाई?</h2>
-  <p>1000 visitors/day: ₹5,000–₹15,000/माह | 5000 visitors/day: ₹25,000–₹75,000/माह | 10,000+ visitors/day: ₹1,00,000+/माह</p>
-
-  <div class="highlight">
-    🚀 <strong>Pro Tip:</strong> Hindi blog शुरू करो! Hindi content की competition कम है और traffic बहुत ज़्यादा है। 6 महीने में अच्छा traffic आ सकता है।
-  </div>
+  <a href="/" class="back">← Back to Home</a>
+  <h1>✍️ How to Earn Money from <span>Blogging</span>?</h1>
+  <p>Blogging lets you write an article once and have it bring in traffic — and money — for years. You can literally earn while you sleep!</p>
+  <div class="highlight">💡 <strong>Blogging Earnings:</strong> ₹5,000 – ₹2,00,000+ per month | Timeline: 6–12 months</div>
+  <h2>How to Start a Blog?</h2>
+  <div class="step-box"><h3>Step 1: Choose Your Niche</h3><p>Pick a specific topic — Health, Finance, Technology, Travel, Food. The more specific, the better.</p></div>
+  <div class="step-box"><h3>Step 2: Choose a Platform</h3><p>WordPress.org (best), Blogger (free), or Medium. WordPress is highly recommended.</p></div>
+  <div class="step-box"><h3>Step 3: Get Domain and Hosting</h3><p>Domain: ₹500–₹1000/year | Hosting: ₹1500–₹3000/year. Hostinger and Bluehost are good options.</p></div>
+  <div class="step-box"><h3>Step 4: Write Content</h3><p>Write 2–3 articles per week. Each article should be 1000–2000 words. Use SEO keywords throughout.</p></div>
+  <div class="step-box"><h3>Step 5: Apply for AdSense</h3><p>Once you have 20–30 articles, apply for Google AdSense. Once approved, ads will start showing on your blog.</p></div>
+  <h2>Ways to Earn from a Blog</h2>
+  <p>Google AdSense, Affiliate Marketing (Amazon, Flipkart), Sponsored Posts, Selling Digital Products, Online Courses — all are valid income streams.</p>
+  <h2>Traffic vs Earnings</h2>
+  <p>1,000 visitors/day: ₹5,000–₹15,000/month | 5,000 visitors/day: ₹25,000–₹75,000/month | 10,000+ visitors/day: ₹1,00,000+/month</p>
+  <div class="highlight">🚀 <strong>Pro Tip:</strong> English blogs have massive global traffic potential. Focus on solving real problems people search for — and Google will reward you!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">💰 PaiseKamao.in</p>
-  <p><a href="/" style="color:var(--gold);">← Home पर वापस जाएं</a></p>
+  <p><a href="/" style="color:var(--gold);">← Back to Home</a></p>
 </footer>
 </body>
 </html>'''
@@ -315,15 +289,15 @@ BLOGGING_HTML = '''<!DOCTYPE html>
 def home():
     return render_template_string(HTML)
 
-@app.route('/fiverr-se-paise-kaise-kamaye')
+@app.route('/how-to-earn-on-fiverr')
 def fiverr():
     return render_template_string(FIVERR_HTML)
 
-@app.route('/youtube-channel-kaise-banaye')
+@app.route('/how-to-start-youtube-channel')
 def youtube():
     return render_template_string(YOUTUBE_HTML)
 
-@app.route('/blogging-se-paise-kaise-kamaye')
+@app.route('/how-to-earn-from-blogging')
 def blogging():
     return render_template_string(BLOGGING_HTML)
 
@@ -332,9 +306,9 @@ def sitemap():
     return '''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://paisekamao.onrender.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://paisekamao.onrender.com/fiverr-se-paise-kaise-kamaye</loc><priority>0.8</priority></url>
-  <url><loc>https://paisekamao.onrender.com/youtube-channel-kaise-banaye</loc><priority>0.8</priority></url>
-  <url><loc>https://paisekamao.onrender.com/blogging-se-paise-kaise-kamaye</loc><priority>0.8</priority></url>
+  <url><loc>https://paisekamao.onrender.com/how-to-earn-on-fiverr</loc><priority>0.8</priority></url>
+  <url><loc>https://paisekamao.onrender.com/how-to-start-youtube-channel</loc><priority>0.8</priority></url>
+  <url><loc>https://paisekamao.onrender.com/how-to-earn-from-blogging</loc><priority>0.8</priority></url>
 </urlset>''', 200, {'Content-Type': 'application/xml'}
 
 @app.route('/ads.txt')
