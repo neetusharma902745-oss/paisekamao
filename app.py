@@ -168,7 +168,6 @@ def sitemap():
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://paisekamao.onrender.com/</loc><priority>1.0</priority></url>
 </urlset>''', 200, {'Content-Type': 'application/xml'}
-
 @app.route('/ads.txt')
 def ads_txt():
     return "google.com, pub-1709475506645918, DIRECT, f08c47fec0942fa0", 200, {'Content-Type': 'text/plain'}
