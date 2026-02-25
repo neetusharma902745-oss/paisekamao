@@ -125,10 +125,11 @@ HTML = '''<!DOCTYPE html>
   </div>
 </section>
 <footer>
-  <p style="font-family:'Baloo 2',cursive; font-size:1.5rem; font-weight:800; color:var(--gold);">💰 PaiseKamao.in</p>
-  <p>India's most trusted platform for earning money online</p>
+  <p style="font-family:\'Baloo 2\',cursive; font-size:1.5rem; font-weight:800; color:var(--gold);">💰 PaiseKamao.in</p>
+  <p>India\'s most trusted platform for earning money online</p>
   <p style="margin-top:0.5rem;">2025 PaiseKamao.in</p>
 </footer>
+<script src="https://pl28794442.effectivegatecpm.com/a9/88/ee/a988ee17c2e78b58e12c025a8562a1da.js"></script>
 </body>
 </html>'''
 
@@ -138,7 +139,7 @@ FIVERR_HTML = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How to Earn Money on Fiverr? - PaiseKamao.in</title>
-<meta name="description" content="Complete guide to earning money on Fiverr in 2025. Create your gig, get orders and withdraw to Indian bank account.">
+<meta name="description" content="Complete guide to earning money on Fiverr in 2025.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -150,7 +151,7 @@ FIVERR_HTML = '''<!DOCTYPE html>
   h1 { font-family: 'Baloo 2', cursive; font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
   h1 span { color: var(--gold); }
   h2 { font-family: 'Baloo 2', cursive; font-size: 1.5rem; font-weight: 700; color: var(--gold); margin: 2rem 0 1rem; }
-  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
   .highlight { background: var(--card); border-left: 4px solid var(--gold); padding: 1rem 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
   .step-box { background: var(--card); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; border: 1px solid rgba(255,255,255,0.07); }
   .step-box h3 { font-family: 'Baloo 2', cursive; color: #fff; margin-bottom: 0.5rem; }
@@ -161,25 +162,26 @@ FIVERR_HTML = '''<!DOCTYPE html>
 <div class="container">
   <a href="/" class="back">Back to Home</a>
   <h1>How to Earn Money on <span>Fiverr</span>?</h1>
-  <p>Fiverr is the world's largest freelancing platform. You can sell any skill and earn Rs.20,000 to Rs.1,00,000+ per month from home.</p>
-  <div class="highlight">Earnings on Fiverr: Rs.20,000 to Rs.1,00,000+ per month | Getting started: Completely free</div>
+  <p>Fiverr is the world's largest freelancing platform. Sell any skill and earn Rs.20,000 to Rs.1,00,000+ per month from home.</p>
+  <div class="highlight">Earnings: Rs.20,000 to Rs.1,00,000+ per month | Getting started: Completely free</div>
   <h2>What is Fiverr?</h2>
-  <p>Fiverr is an online marketplace where freelancers sell their services called Gigs. Graphic design, writing, video editing, coding, voice over — every type of service sells here.</p>
+  <p>Fiverr is an online marketplace where freelancers sell their services called Gigs. Graphic design, writing, video editing, coding — every type of service sells here.</p>
   <h2>How to Create a Fiverr Account?</h2>
   <div class="step-box"><h3>Step 1: Register</h3><p>Go to Fiverr.com, click Become a Seller and sign up with your email.</p></div>
-  <div class="step-box"><h3>Step 2: Complete Your Profile</h3><p>Add your photo, bio, and skills. Use a professional photo — it greatly increases your chances of getting orders.</p></div>
-  <div class="step-box"><h3>Step 3: Create Your First Gig</h3><p>Offer a service you are good at. Keep the title clear, for example: I will design a professional logo for your business.</p></div>
-  <div class="step-box"><h3>Step 4: Set Your Pricing</h3><p>Start at Rs.500 to Rs.1000. Raise your prices once you get reviews and ratings.</p></div>
+  <div class="step-box"><h3>Step 2: Complete Your Profile</h3><p>Add your photo, bio, and skills. Use a professional photo to increase your chances of getting orders.</p></div>
+  <div class="step-box"><h3>Step 3: Create Your First Gig</h3><p>Offer a service you are good at. Keep the title clear.</p></div>
+  <div class="step-box"><h3>Step 4: Set Your Pricing</h3><p>Start at Rs.500 to Rs.1000. Raise prices once you get reviews.</p></div>
   <h2>Which Skills Get the Most Orders?</h2>
-  <p>Logo Design, Video Editing, Content Writing, Social Media Posts, WordPress Websites, Voice Over, Data Entry, Translation — these are all very popular.</p>
+  <p>Logo Design, Video Editing, Content Writing, Social Media Posts, WordPress Websites, Voice Over, Data Entry, Translation.</p>
   <h2>When Do You Get Paid?</h2>
-  <p>Funds are released 14 days after an order is completed. You can then withdraw via PayPal, Bank Transfer, or Payoneer.</p>
-  <div class="highlight">Pro Tip: Focus on delivering excellent service for your first 10 orders and earn 5-star reviews. After that, orders will start coming automatically!</div>
+  <p>Funds are released 14 days after order completion. Withdraw via PayPal, Bank Transfer, or Payoneer.</p>
+  <div class="highlight">Pro Tip: Deliver excellent service for your first 10 orders and earn 5-star reviews. After that, orders come automatically!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">PaiseKamao.in</p>
   <p><a href="/" style="color:var(--gold);">Back to Home</a></p>
 </footer>
+<script src="https://pl28794442.effectivegatecpm.com/a9/88/ee/a988ee17c2e78b58e12c025a8562a1da.js"></script>
 </body>
 </html>'''
 
@@ -189,7 +191,7 @@ YOUTUBE_HTML = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How to Start a YouTube Channel? - PaiseKamao.in</title>
-<meta name="description" content="Complete guide to starting a YouTube channel in India 2025. Learn how to get monetized and earn money from YouTube.">
+<meta name="description" content="Complete guide to starting a YouTube channel in India 2025.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -201,7 +203,7 @@ YOUTUBE_HTML = '''<!DOCTYPE html>
   h1 { font-family: 'Baloo 2', cursive; font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
   h1 span { color: var(--gold); }
   h2 { font-family: 'Baloo 2', cursive; font-size: 1.5rem; font-weight: 700; color: var(--gold); margin: 2rem 0 1rem; }
-  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
   .highlight { background: var(--card); border-left: 4px solid var(--gold); padding: 1rem 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
   .step-box { background: var(--card); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; border: 1px solid rgba(255,255,255,0.07); }
   .step-box h3 { font-family: 'Baloo 2', cursive; color: #fff; margin-bottom: 0.5rem; }
@@ -212,22 +214,23 @@ YOUTUBE_HTML = '''<!DOCTYPE html>
 <div class="container">
   <a href="/" class="back">Back to Home</a>
   <h1>How to Start a <span>YouTube Channel</span>?</h1>
-  <p>YouTube is India's most popular platform. With the right niche and consistency, you can earn lakhs of rupees with zero investment!</p>
-  <div class="highlight">YouTube Earnings: Rs.10,000 to Rs.5,00,000+ per month | Investment: Rs.0 — start with your smartphone</div>
+  <p>YouTube is India's most popular platform. With the right niche and consistency, earn lakhs with zero investment!</p>
+  <div class="highlight">YouTube Earnings: Rs.10,000 to Rs.5,00,000+ per month | Investment: Rs.0</div>
   <h2>How to Create a YouTube Channel?</h2>
   <div class="step-box"><h3>Step 1: Create Channel with Gmail</h3><p>Go to YouTube.com, sign in, click your name and select Create a channel.</p></div>
-  <div class="step-box"><h3>Step 2: Choose Your Niche</h3><p>Pick a topic you enjoy and know well. Education, Cooking, Tech, Finance, Comedy — whatever your passion is.</p></div>
-  <div class="step-box"><h3>Step 3: Make Your First Video</h3><p>Start with your smartphone. Use good lighting. Speak clearly. Videos of 8 to 15 minutes tend to perform best.</p></div>
-  <div class="step-box"><h3>Step 4: Thumbnails and Titles</h3><p>Create eye-catching thumbnails. Put keywords in your title that people actually search for.</p></div>
-  <div class="step-box"><h3>Step 5: Monetization</h3><p>Once you reach 1,000 Subscribers and 4,000 Watch Hours, apply to the YouTube Partner Program.</p></div>
+  <div class="step-box"><h3>Step 2: Choose Your Niche</h3><p>Pick a topic you enjoy. Education, Cooking, Tech, Finance, Comedy — whatever your passion is.</p></div>
+  <div class="step-box"><h3>Step 3: Make Your First Video</h3><p>Start with your smartphone. Use good lighting. Videos of 8 to 15 minutes perform best.</p></div>
+  <div class="step-box"><h3>Step 4: Thumbnails and Titles</h3><p>Create eye-catching thumbnails. Put keywords in your title that people search for.</p></div>
+  <div class="step-box"><h3>Step 5: Monetization</h3><p>Reach 1,000 Subscribers and 4,000 Watch Hours to apply for the YouTube Partner Program.</p></div>
   <h2>How Much Can You Earn?</h2>
-  <p>10K subscribers: Rs.3,000 to Rs.10,000 per month. 1 Lakh subscribers: Rs.30,000 to Rs.1,00,000 per month. 10 Lakh subscribers: Rs.3,00,000+ per month.</p>
-  <div class="highlight">Pro Tip: Upload at least 2 videos per week. The first 6 months may feel slow — but after 1 year your channel can explode!</div>
+  <p>10K subscribers: Rs.3,000 to Rs.10,000 per month. 1 Lakh subscribers: Rs.30,000 to Rs.1,00,000 per month.</p>
+  <div class="highlight">Pro Tip: Upload at least 2 videos per week. After 1 year your channel can explode!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">PaiseKamao.in</p>
   <p><a href="/" style="color:var(--gold);">Back to Home</a></p>
 </footer>
+<script src="https://pl28794442.effectivegatecpm.com/a9/88/ee/a988ee17c2e78b58e12c025a8562a1da.js"></script>
 </body>
 </html>'''
 
@@ -237,7 +240,7 @@ BLOGGING_HTML = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How to Earn Money from Blogging? - PaiseKamao.in</title>
-<meta name="description" content="Start a blog, rank on Google and earn passive income through AdSense and affiliate marketing in India 2025.">
+<meta name="description" content="Start a blog, rank on Google and earn passive income through AdSense in India 2025.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1709475506645918" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -249,7 +252,7 @@ BLOGGING_HTML = '''<!DOCTYPE html>
   h1 { font-family: 'Baloo 2', cursive; font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
   h1 span { color: var(--gold); }
   h2 { font-family: 'Baloo 2', cursive; font-size: 1.5rem; font-weight: 700; color: var(--gold); margin: 2rem 0 1rem; }
-  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+  p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
   .highlight { background: var(--card); border-left: 4px solid var(--gold); padding: 1rem 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
   .step-box { background: var(--card); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; border: 1px solid rgba(255,255,255,0.07); }
   .step-box h3 { font-family: 'Baloo 2', cursive; color: #fff; margin-bottom: 0.5rem; }
@@ -260,22 +263,23 @@ BLOGGING_HTML = '''<!DOCTYPE html>
 <div class="container">
   <a href="/" class="back">Back to Home</a>
   <h1>How to Earn Money from <span>Blogging</span>?</h1>
-  <p>Blogging lets you write an article once and have it bring in traffic and money for years. You can literally earn while you sleep!</p>
+  <p>Write an article once and earn money from it for years — passive income while you sleep!</p>
   <div class="highlight">Blogging Earnings: Rs.5,000 to Rs.2,00,000+ per month | Timeline: 6 to 12 months</div>
   <h2>How to Start a Blog?</h2>
-  <div class="step-box"><h3>Step 1: Choose Your Niche</h3><p>Pick a specific topic — Health, Finance, Technology, Travel, Food. The more specific the better.</p></div>
-  <div class="step-box"><h3>Step 2: Choose a Platform</h3><p>WordPress.org is the best option. Blogger is free. WordPress is highly recommended.</p></div>
-  <div class="step-box"><h3>Step 3: Get Domain and Hosting</h3><p>Domain: Rs.500 to Rs.1000 per year. Hosting: Rs.1500 to Rs.3000 per year. Hostinger is a good option.</p></div>
-  <div class="step-box"><h3>Step 4: Write Content</h3><p>Write 2 to 3 articles per week. Each article should be 1000 to 2000 words. Use SEO keywords throughout.</p></div>
-  <div class="step-box"><h3>Step 5: Apply for AdSense</h3><p>Once you have 20 to 30 articles, apply for Google AdSense. Once approved, ads will start showing on your blog.</p></div>
+  <div class="step-box"><h3>Step 1: Choose Your Niche</h3><p>Pick a specific topic — Health, Finance, Technology, Travel, Food.</p></div>
+  <div class="step-box"><h3>Step 2: Choose a Platform</h3><p>WordPress.org is highly recommended. Blogger is a free option.</p></div>
+  <div class="step-box"><h3>Step 3: Get Domain and Hosting</h3><p>Domain: Rs.500 to Rs.1000 per year. Hosting: Rs.1500 to Rs.3000 per year.</p></div>
+  <div class="step-box"><h3>Step 4: Write Content</h3><p>Write 2 to 3 articles per week. Each article should be 1000 to 2000 words with SEO keywords.</p></div>
+  <div class="step-box"><h3>Step 5: Apply for AdSense</h3><p>Once you have 20 to 30 articles, apply for Google AdSense.</p></div>
   <h2>Traffic vs Earnings</h2>
-  <p>1,000 visitors per day: Rs.5,000 to Rs.15,000 per month. 5,000 visitors per day: Rs.25,000 to Rs.75,000 per month. 10,000+ visitors per day: Rs.1,00,000+ per month.</p>
-  <div class="highlight">Pro Tip: English blogs have massive global traffic potential. Focus on solving real problems people search for and Google will reward you!</div>
+  <p>1,000 visitors per day: Rs.5,000 to Rs.15,000 per month. 10,000+ visitors per day: Rs.1,00,000+ per month.</p>
+  <div class="highlight">Pro Tip: Focus on solving real problems people search for and Google will reward you!</div>
 </div>
 <footer>
   <p style="font-family:'Baloo 2',cursive; color:var(--gold); font-size:1.2rem;">PaiseKamao.in</p>
   <p><a href="/" style="color:var(--gold);">Back to Home</a></p>
 </footer>
+<script src="https://pl28794442.effectivegatecpm.com/a9/88/ee/a988ee17c2e78b58e12c025a8562a1da.js"></script>
 </body>
 </html>'''
 
